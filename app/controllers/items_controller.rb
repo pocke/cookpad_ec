@@ -5,6 +5,9 @@ class ItemsController < ApplicationController
   # GET /items.json
   def index
     @items = Item.all
+    if category_id = params[:category_id]
+      @items = @items.where(category_id: category_id)
+    end
   end
 
   # GET /items/1
@@ -15,6 +18,11 @@ class ItemsController < ApplicationController
 
   def recommended
     @items = Item.recommended
+    render :index
+  end
+
+  def uncategorized
+    @items = Item.uncategorized
     render :index
   end
 
