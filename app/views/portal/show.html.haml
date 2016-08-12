@@ -1,5 +1,18 @@
 %h1 ECサイト!
 
+%hr
+
+%h2 カテゴリ
+
 %ul
   - @categories.each do |category|
     %li= category.name
+
+
+%h2 🌟おすすめ商品🌟
+
+%ul
+  - @recommended.each do |recommended|
+    %li= recommended.name
+
+= link_to "See all", recommended_items_path

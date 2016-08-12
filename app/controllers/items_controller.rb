@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
 
 
   def recommended
-    @items = Item.where(recommended: true)
+    @items = Item.recommended
     render :index
   end
 
