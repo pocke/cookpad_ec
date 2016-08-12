@@ -3,17 +3,16 @@
 %table
   %thead
     %tr
+      %th おすすめ
       %th Name
       %th Description
       %th Price
       %th Image url
-      %th
-      %th
-      %th
 
   %tbody
     - @items.each do |item|
       %tr
+        %td= item.recommended ? '🌟' : ''
         %td= link_to item.name, item
         %td= item.description
         %td= "#{item.price} yen"
