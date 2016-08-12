@@ -19,9 +19,3 @@
         %td= "#{item.price} yen"
         %td= item.image_url
         %td= link_to 'Show', item
-        %td= link_to 'Edit', edit_item_path(item)
-        %td= link_to 'Destroy', item, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Item', new_item_path

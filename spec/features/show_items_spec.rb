@@ -8,7 +8,7 @@ RSpec.feature "See shop items", type: :feature do
 
   scenario 'A user can see vairous items' do
 
-    visit '/items'
+    visit items_path
 
     expect(page).to have_text '包丁'
     expect(page).to have_text 'フライパン'
