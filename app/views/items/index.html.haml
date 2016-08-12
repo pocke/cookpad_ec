@@ -16,7 +16,7 @@
         %td= link_to item.name, item
         %td= item.description
         %td= "#{item.price} yen"
-        %td= image_url item.image_url, size: '20x20'
+        %td= image_tag item.image_url, size: '20x20'
         %td= link_to 'Show', item
 
 = link_to "おすすめ商品", recommended_items_path
