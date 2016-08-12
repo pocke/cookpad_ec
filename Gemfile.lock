@@ -1,3 +1,10 @@
+PATH
+  remote: vendor/ckpd_intern
+  specs:
+    ckpd_intern (0.1.0)
+      nokogiri
+      rails (~> 5.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -245,6 +252,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
+  ckpd_intern!
   coffee-rails (~> 4.2)
   factory_girl_rails
   guard

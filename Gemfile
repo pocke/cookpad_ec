@@ -44,6 +44,8 @@ group :development, :test do
   gem 'mi'
 end
 
+gem 'ckpd_intern', path: 'vendor/ckpd_intern'
+
 gem 'takarabako'
 
 group :development do

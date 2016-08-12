@@ -1,0 +1,117 @@
+{
+  "調理器具": {
+    "image_path": "ckpd_intern/category/kabekake_cooking.png",
+    "items": [
+      {
+        "title": "料理包丁",
+        "description": "材料を切るときに使う、料理包丁です。",
+        "image_path": "ckpd_intern/item/cooking_ryouri_houchou.png"
+      },
+      {
+        "title": "フライ返し・スパチュラ",
+        "description": "料理をひっくり返すときに使う、フライ返しです。",
+        "image_path": "ckpd_intern/item/cooking_spatula_turner.png"
+      },
+      {
+        "title": "おたま・おたまじゃくし",
+        "description": "スープすくうときに使う、おたまです。",
+        "image_path": "ckpd_intern/item/cooking_otama.png"
+      },
+      {
+        "title": "フライパン・深め",
+        "description": "黒い深めのフライパンです。",
+        "image_path": "ckpd_intern/item/cooking_frying_pan.png"
+      },
+      {
+        "title": "土鍋",
+        "description": "お鍋やご飯を炊いたりするときに便利な、土鍋です。",
+        "image_path": "ckpd_intern/item/cooking_donabe.png"
+      },
+      {
+        "title": "フライ返し",
+        "description": "料理を混ぜたり、ひっくり返したりするときに使う、フライ返しです。",
+        "image_path": "ckpd_intern/item/cooking_frygaeshi.png"
+      },
+      {
+        "title": "果汁しぼり器",
+        "description": "レモンやグレープフルーツの果汁を絞るための、果汁しぼり器（スクイーザー）です。",
+        "image_path": "ckpd_intern/item/cooking_lemon_shibori.png"
+      },
+      {
+        "title": "寸胴",
+        "description": "給食やキャンプで使うような、大きな寸胴のイラストです。これでカレーを山ほど作りたいです。",
+        "image_path": "ckpd_intern/item/cooking_zundou.png"
+      },
+      {
+        "title": "電子レンジ",
+        "description": "黒い電子レンジです。",
+        "image_path": "ckpd_intern/item/cooking_microwave.png"
+      },
+      {
+        "title": "水切りボウル・ザル",
+        "description": "野菜などを洗って、水を切るための水切りボウル（ザル）です。",
+        "image_path": "ckpd_intern/item/cooking_mizukiri_bowl.png"
+      },
+      {
+        "title": "ミキサー・ジューサー",
+        "description": "ジュースを作ったり、材料を混ぜ合わせたりするための、ミキサー（ジューサー）です。",
+        "image_path": "ckpd_intern/item/cooking_mixer_blender.png"
+      },
+      {
+        "title": "おろし金",
+        "description": "大根おろしなどを作るための、金属製のおろし金です。",
+        "image_path": "ckpd_intern/item/cooking_oroshigane.png"
+      },
+      {
+        "title": "電子ジャー・炊飯器",
+        "description": "ふっくら美味しいご飯を炊くための、かわいい電子ジャー（炊飯器）です。",
+        "image_path": "ckpd_intern/item/cooking_suihanki.png"
+      }
+    ]
+  },
+  "食器": {
+    "image_path": "ckpd_intern/category/syokki_kataduke.png",
+    "items": [
+      {
+        "title": "お茶碗",
+        "description": "ごはんを盛るためのお茶碗です。",
+        "image_path": "ckpd_intern/item/dish_ochawan.png"
+      },
+      {
+        "title": "お皿",
+        "description": "何も乗っていない、真っ白で平らなお皿です。",
+        "image_path": "ckpd_intern/item/osara.png"
+      },
+      {
+        "title": "カラフルな食器",
+        "description": "コップやお椀やお皿など、カラフルないろの食器が並んだイラストです。",
+        "image_path": "ckpd_intern/item/osara_color.png"
+      },
+      {
+        "title": "白い食器",
+        "description": "真っ白なコップやお椀やお皿が並んだイラストです。",
+        "image_path": "ckpd_intern/item/osara_white.png"
+      }
+    ]
+  },
+  "食材": {
+    "image_path": "ckpd_intern/category/chisanchisyou_tokusanhin.png",
+    "items": [
+      {
+        "title": "玉ねぎ（野菜）",
+        "description": "丸くてつやつや、カレーに野菜炒めに万能な、玉ねぎです。",
+        "image_path": "ckpd_intern/item/tamanegi_onion1.png"
+      },
+      {
+        "title": "鶏もも肉",
+        "description": "つやつやでプリプリの鶏のモモ肉です。",
+        "image_path": "ckpd_intern/item/niku_tori.png"
+      },
+      {
+        "title": "豚バラブロック",
+        "description": "角煮を作る時などに使われる、ブロック状の豚肉（豚バラ肉）です。",
+        "image_path": "ckpd_intern/item/niku_butabara_block.png"
+      }
+    ]
+  }
+}
