@@ -1,0 +1,22 @@
+%h2 🎉🎉🎉ご注文ありがとうございました🎉🎉🎉
+
+%p= "注文日時: #{@order.orderd_at.strftime('%Y/%d/%m %H:%M')}" 
+
+%h3 注文明細
+
+%table
+  %thead
+    %tr
+      %th 商品名
+      %th 単価
+      %th 注文個数
+      %th 合計
+  %tbody
+    - @order.line_items.each do |line_items|
+      - price = line_items.item.price
+      - quantity = line_items.quantity
+      %tr.line_items
+        %td= line_items.item.name
+        %td= price
+        %td= quantity
+        %td= price * quantity
