@@ -12,11 +12,11 @@
       %th 注文個数
       %th 合計
   %tbody
-    - @order.line_items.each do |line_items|
-      - price = line_items.item.price
-      - quantity = line_items.quantity
+    - @order.line_items.each do |line_item|
+      - price = line_item.item.price
+      - quantity = line_item.quantity
       %tr.line_items
-        %td= line_items.item.name
+        %td= line_item.item.name
         %td= price
         %td= quantity
-        %td= price * quantity
+        %td= line_item.subtotal
