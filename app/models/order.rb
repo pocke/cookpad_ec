@@ -8,4 +8,8 @@ class Order < ApplicationRecord
       orderd_at: Time.zone.now,
     )
   end
+
+  def total
+    line_items.sum{|i| i.subtotal}
+  end
 end
