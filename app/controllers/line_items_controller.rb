@@ -3,10 +3,11 @@ class LineItemsController < ApplicationController
 
   def create
     ActiveRecord::Base.transaction do
-      LineItem.create!(create_line_item_params(@order.id))
       @order.save!
+      LineItem.create!(create_line_item_params(@order.id))
     end
 
+    session[:current_order_id] = @order.id
     redirect_to order_path(@order)
   end
 
@@ -15,7 +16,7 @@ class LineItemsController < ApplicationController
 
   def create_line_item_params(order_id)
     p = params.require(:line_item).permit(:item_id, :quantity)
-    p[:order_id] = order.id
+    p[:order_id] = order_id
     p
   end
 
