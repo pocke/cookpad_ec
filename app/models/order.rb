@@ -5,7 +5,7 @@ class Order < ApplicationRecord
   def checkout!
     update!(
       status: :checked_out,
-      orderd_at: Time.zone.now,
+      ordered_at: Time.zone.now,
     )
   end
 
